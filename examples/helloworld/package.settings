@@ -1,0 +1,9 @@
+{
+    "app_path": "./app",
+    "lib_path": "./lib",
+    "include_subs": true,
+    "list":[{
+        "target": "/modjs/helloworld",
+        "excepts": ["^/modjs/(dir/)?test"]
+    }]
+}

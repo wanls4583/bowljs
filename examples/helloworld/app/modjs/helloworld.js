@@ -1,0 +1,2 @@
+define("dom",null,function(n,e,t){e.id=function(n){return document.getElementById(n)}});
+define("/modjs/helloworld",["/modjs/test","/modjs/dir/test1"],function(t,e,i){var n=t("dom"),d=t("./test"),l=t("./dir/test1");n.id("title").innerHTML=d.title+","+l.title});

@@ -1,0 +1,1 @@
+define("dom",null,function(n,e,t){e.id=function(n){return document.getElementById(n)}});
